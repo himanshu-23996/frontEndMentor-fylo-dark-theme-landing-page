@@ -703,4 +703,47 @@
         // Animations
         // Pseudo Class Selectors
         // Sub Classes
+        .section-2 {
+            .contact-us {
+                span {
+                    // Background
+                    // Display
+                    // Border
+                    // Sizing
+                    width: 10%;
+                    // Padding
+                    // Alignment
+                    // Margining
+                    // Font Styling
+                    color: white;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                    p {
+                        // Background
+                        // Display
+                        // Border
+                        // Sizing
+                        // Padding
+                        padding-left: 1rem;
+                        // Alignment
+                        text-align: right;
+                        // Margining
+                        // Font Styling
+                        color: inherit;
+                        font-family: inherit;
+                        font-weight: inherit;
+                        font-size: 1rem;
+                        // Transitions
+                        // Animations
+                        // Pseudo Class Selectors
+                        // Sub Classes
+                    }
+                }
+            }
+        }
     }

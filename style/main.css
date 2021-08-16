@@ -459,3 +459,20 @@ footer {
   font-weight: inherit;
   font-size: inherit;
 }
+
+footer .section-2 .contact-us span {
+  width: 10%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+footer .section-2 .contact-us span p {
+  padding-left: 1rem;
+  text-align: right;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 1rem;
+}
