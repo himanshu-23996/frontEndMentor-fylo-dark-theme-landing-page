@@ -430,7 +430,7 @@ main .connect-with-us .mail-and-btn {
 
 main .connect-with-us .mail-and-btn .email {
   all: unset;
-  width: 55%;
+  width: 50%;
   border-radius: 50px;
   background-color: white;
   color: black;
@@ -438,9 +438,11 @@ main .connect-with-us .mail-and-btn .email {
 }
 
 main .connect-with-us .mail-and-btn .email-btn {
+  width: 40%;
   all: unset;
   border-radius: 50px;
   padding: 1rem 2rem 1rem 2rem;
+  margin-left: 1rem;
   background-color: #65e2d9;
   -webkit-transition: background-color ease-in-out 300ms;
   transition: background-color ease-in-out 300ms;
@@ -460,8 +462,63 @@ footer {
   font-size: inherit;
 }
 
+footer .footer-logo {
+  padding-left: 6rem;
+}
+
+footer .section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 2rem;
+      -ms-flex: 2rem;
+          flex: 2rem;
+  height: 250px;
+  padding-top: 1rem;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+footer .section-2 .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 30%;
+  height: 70%;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
 footer .section-2 .contact-us span {
-  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-top: 2rem;
+  padding-left: 6rem;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -470,9 +527,116 @@ footer .section-2 .contact-us span {
 
 footer .section-2 .contact-us span p {
   padding-left: 1rem;
-  text-align: right;
+  text-align: left;
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
   font-size: 1rem;
+}
+
+footer .section-2 .navbar {
+  width: 30%;
+  padding-block: 2rem;
+  padding-left: 15rem;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+footer .section-2 .navbar .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 70%;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+footer .section-2 .navbar .nav-list .nav-item {
+  padding-block: 0.5rem;
+  padding-left: 5rem;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+footer .section-2 .navbar .nav-list .nav-item::marker {
+  content: "";
+}
+
+footer .section-2 .navbar .nav-list .nav-item .nav-link {
+  text-decoration: unset;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+footer .section-2 .navbar .nav-list .nav-item .nav-link:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer .section-2 .social-link-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  padding-left: 11rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-block: 2rem;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+footer .section-2 .social-link-holder .social-btn {
+  padding-left: 1rem;
+  text-decoration: unset;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 1.2rem;
+}
+
+footer .section-2 .social-link-holder .social-btn:hover {
+  cursor: pointer;
+}
+
+footer .section-2 .social-link-holder .social-btn:hover svg,
+footer .section-2 .social-link-holder .social-btn:hover i {
+  border: 1px solid #65e2d9;
+  color: #65e2d9;
+}
+
+footer .section-2 .social-link-holder .social-btn svg,
+footer .section-2 .social-link-holder .social-btn i {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem;
+  text-decoration: unset;
+  color: white;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 1.5rem;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
 }
