@@ -23,12 +23,12 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url("../images/bg-curvy-desktop.svg");
   background-color: #1c2431;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
-  margin-bottom: 6rem;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -113,6 +113,7 @@ header .header-description {
 
 header .header-btn-link {
   border-radius: 50px;
+  margin-bottom: 6rem;
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
@@ -135,4 +136,326 @@ header .header-btn-link:hover {
 
 header .header-btn-link:hover .header-btn {
   background-color: #77f3eb;
+}
+
+main {
+  background-color: #181f2a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  position: relative;
+}
+
+main .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 0rem 8rem 5rem 8rem;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-align: inherit;
+  font-weight: inherit;
+}
+
+main .services .desc-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  padding: 4rem 1rem 1rem 1rem;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-align: inherit;
+  font-weight: inherit;
+}
+
+main .services .desc-box .service-title-bold {
+  padding: 2.5rem 1rem 0.5rem 1rem;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.2rem;
+  text-align: inherit;
+  font-weight: 600;
+}
+
+main .services .desc-box .service-desc-para {
+  width: 60%;
+  font-family: inherit;
+  color: inherit;
+  font-size: 0.8rem;
+  text-align: inherit;
+  font-weight: inherit;
+}
+
+main .self-advertisement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem 3rem 6rem 3rem;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-align: left;
+  font-weight: inherit;
+}
+
+main .self-advertisement img {
+  padding-left: 4rem;
+}
+
+main .self-advertisement .self-advertisement-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 6rem;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-align: left;
+  font-weight: inherit;
+}
+
+main .self-advertisement .self-advertisement-text .self-advertisement-text-heading {
+  font-family: inherit;
+  color: inherit;
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+main .self-advertisement .self-advertisement-text .self-advertisement-text-content {
+  padding-top: 1rem;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: inherit;
+}
+
+main .self-advertisement .self-advertisement-text .p-3 a {
+  color: #65e2d9;
+}
+
+main .self-advertisement .self-advertisement-text .p-3 a:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
+
+main .self-advertisement .self-advertisement-text .p-3 a img {
+  padding: unset;
+  bottom: 0;
+}
+
+main .testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 4rem 5rem 15rem 5rem;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-align: left;
+  font-weight: inherit;
+  z-index: 9;
+  position: relative;
+}
+
+main .testimonials .t-1 .quotes {
+  position: absolute;
+  top: 13%;
+  left: 7%;
+  z-index: -2;
+}
+
+main .testimonials .testimonials-grid {
+  background-color: #202a3c;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 5px 0px black;
+          box-shadow: 3px 3px 5px 0px black;
+  padding: 3rem 1.5rem 2rem 1.5rem;
+  margin: 2rem;
+  font-family: inherit;
+  color: inherit;
+  font-size: 0.9rem;
+  text-align: inherit;
+  font-weight: inherit;
+}
+
+main .testimonials .testimonials-grid .text {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+main .testimonials .testimonials-grid .profile-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-top: 2rem;
+}
+
+main .testimonials .testimonials-grid .profile-display img {
+  position: unset;
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+}
+
+main .testimonials .testimonials-grid .profile-display .name-and-designation {
+  padding-left: 1rem;
+}
+
+main .testimonials .testimonials-grid .profile-display .name-and-designation .name {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+main .testimonials .testimonials-grid .profile-display .name-and-designation .designaion {
+  font-size: 0.6rem;
+}
+
+main .connect-with-us {
+  position: absolute;
+  top: 93%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1c2431;
+  -webkit-box-shadow: 2px 2px 4px 0px black;
+          box-shadow: 2px 2px 4px 0px black;
+  border-radius: 10px;
+  width: 50%;
+}
+
+main .connect-with-us .heading {
+  background-color: #1c2431;
+  border-radius: 10px;
+  width: 60%;
+  padding: 1.5rem 0rem 1rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+main .connect-with-us .text {
+  background-color: #1c2431;
+  border-radius: 10px;
+  width: 60%;
+  font-size: 0.8rem;
+}
+
+main .connect-with-us .mail-and-btn {
+  padding: 2rem 2.5rem 2rem 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+main .connect-with-us .mail-and-btn .email {
+  all: unset;
+  width: 55%;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+main .connect-with-us .mail-and-btn .email-btn {
+  all: unset;
+  border-radius: 50px;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #65e2d9;
+  -webkit-transition: background-color ease-in-out 300ms;
+  transition: background-color ease-in-out 300ms;
+}
+
+main .connect-with-us .mail-and-btn .email-btn:hover {
+  cursor: pointer;
+  background-color: #77f3eb;
+}
+
+footer {
+  background-color: #0b1523;
+  padding: 15rem 3rem 4rem 3rem;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }

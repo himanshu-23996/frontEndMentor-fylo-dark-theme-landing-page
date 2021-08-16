@@ -6,6 +6,7 @@
     // Border
     // Sizing
     // Padding
+    // Alignment
     // Margining
     // Font Styling
     // Transitions
@@ -19,17 +20,17 @@
         justify-content: flex-start;
         align-items: center;
         // Background
+        background-image: url("../images/bg-curvy-desktop.svg");
         background-color: $dark-blue-intro-and-email-signup;
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: cover;
+        background-size: contain;
         // Border
         // Sizing
         width: 100%;
         // Padding
         // Alignment
         // Margining
-        margin-bottom: 6rem;
         // Font Styling
         color: white;
         font-family: 'Raleway', sans-serif;
@@ -169,6 +170,7 @@
             // Sizing
             // Padding
             // Margining
+            margin-bottom: 6rem;
             // Font Styling
             font-family: inherit;
             font-weight: inherit;
@@ -205,4 +207,500 @@
                 }
             }
         }
+    }
+    
+    main {
+        // Background
+        background-color: $dark-blue-main-background;
+        // Display
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // Border
+        // Sizing
+        // Padding
+        // Alignment
+        // Margining
+        // Font Styling
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+        // Transitions
+        // Animations
+        // Pseudo Class Selectors
+        // Sub Classes
+        .services {
+            // Background
+            // Display
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            // Border
+            // Sizing
+            // width: 50%;
+            // Padding
+            padding: 0rem 8rem 5rem 8rem;
+            // Alignment
+            // Margining
+            // Font Styling
+            font-family: inherit;
+            color: inherit;
+            font-size: inherit;
+            text-align: inherit;
+            font-weight: inherit;
+            // Transitions
+            // Animations
+            // Pseudo Class Selectors
+            // Sub Classes
+            .desc-box {
+                // Background
+                // Display
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                // Border
+                // Sizing
+                width: 50%;
+                // Padding
+                padding: 4rem 1rem 1rem 1rem;
+                // Alignment
+                // Margining
+                // Font Styling
+                font-family: inherit;
+                color: inherit;
+                font-size: inherit;
+                text-align: inherit;
+                font-weight: inherit;
+                // Transitions
+                // Animations
+                // Pseudo Class Selectors
+                // Sub Classes
+                img {
+                    // Background
+                    // Display
+                    // Border
+                    // Sizing
+                    // Padding
+                    // Alignment
+                    // Margining
+                    // Font Styling
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                }
+                .service-title-bold {
+                    // Background
+                    // Display
+                    // Border
+                    // Sizing
+                    // Padding
+                    padding: 2.5rem 1rem 0.5rem 1rem;
+                    // Alignment
+                    // Margining
+                    // Font Styling
+                    font-family: inherit;
+                    color: inherit;
+                    font-size: 1.2rem;
+                    text-align: inherit;
+                    font-weight: 600;
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                }
+                .service-desc-para {
+                    // Background
+                    // Display
+                    // Border
+                    // Sizing
+                    width: 60%;
+                    // Padding
+                    // Alignment
+                    // Margining
+                    // Font Styling
+                    font-family: inherit;
+                    color: inherit;
+                    font-size: 0.8rem;
+                    text-align: inherit;
+                    font-weight: inherit;
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                }
+            }
+        }
+        .self-advertisement {
+            // Background
+            // Display
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            // Border
+            // Sizing
+            // Padding
+            padding: 4rem 3rem 6rem 3rem;
+            // Alignment
+            // Margining
+            // Font Styling
+            font-family: inherit;
+            color: inherit;
+            font-size: inherit;
+            text-align: left;
+            font-weight: inherit;
+            // Transitions
+            // Animations
+            // Pseudo Class Selectors
+            // Sub Classes
+            img {
+                padding-left: 4rem;
+            }
+            .self-advertisement-text {
+                // Background
+                // Display
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                // Border
+                // Sizing
+                // Padding
+                padding-left: 6rem;
+                // Alignment
+                // Margining
+                // Font Styling
+                font-family: inherit;
+                color: inherit;
+                font-size: inherit;
+                text-align: left;
+                font-weight: inherit;
+                // Transitions
+                // Animations
+                // Pseudo Class Selectors
+                // Sub Classes
+                .self-advertisement-text-heading {
+                    // Background
+                    // Display
+                    // Border
+                    // Sizing
+                    // Padding
+                    // Alignment
+                    // Margining
+                    // Font Styling
+                    font-family: inherit;
+                    color: inherit;
+                    font-size: 2.5rem;
+                    text-align: left;
+                    font-weight: 600;
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                }
+                .self-advertisement-text-content {
+                    // Background
+                    // Display
+                    // Border
+                    // Sizing
+                    // Padding
+                    padding-top: 1rem;
+                    // Alignment
+                    // Margining
+                    // Font Styling
+                    font-family: inherit;
+                    color: inherit;
+                    font-size: 1rem;
+                    text-align: left;
+                    font-weight: inherit;
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                }
+                .p-3 {
+                    a {
+                        // Background
+                        // Display
+                        // Border
+                        // Sizing
+                        // Padding
+                        // Alignment
+                        // Margining
+                        // Font Styling
+                        color: $cyan;
+                        // text-decoration: unset;
+                        // Transitions
+                        // Animations
+                        // Pseudo Class Selectors
+                        &:hover {
+                            cursor: pointer;
+                            color: white;
+                            text-decoration: underline;
+                        }
+                        // Sub Classes
+                        img {
+                            padding: unset;
+                            bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .testimonials {
+            // Background
+            // Display
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            // Border
+            // Sizing
+            // Padding
+            padding: 4rem 5rem 15rem 5rem;
+            // Alignment
+            // Margining
+            // Font Styling
+            font-family: inherit;
+            color: inherit;
+            font-size: inherit;
+            text-align: left;
+            font-weight: inherit;
+            // Transitions
+            // Animations
+            // Pseudo Class Selectors
+            // Sub Classes
+            z-index: 9;
+            position: relative;
+            .t-1 {
+                .quotes {
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    z-index: -2;
+                }
+            }
+            .testimonials-grid {
+                // Background
+                background-color: $dark-blue-testimonials-background;
+                // Display
+                // Border
+                border-radius: 5px;
+                box-shadow: 3px 3px 5px 0px black;
+                // Sizing
+                // Padding
+                padding: 3rem 1.5rem 2rem 1.5rem;
+                // Alignment
+                // Margining
+                margin: 2rem;
+                // Font Styling
+                font-family: inherit;
+                color: inherit;
+                font-size: 0.9rem;
+                text-align: inherit;
+                font-weight: inherit;
+                // Transitions
+                // Animations
+                // Pseudo Class Selectors
+                // Sub Classes
+                .text {
+                    // Background
+                    // Display
+                    // Border
+                    // Sizing
+                    // Padding
+                    // Alignment
+                    // Margining
+                    // Font Styling
+                    font-size: 0.9rem;
+                    line-height: 1.2rem;
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                }
+                .profile-display {
+                    // Background
+                    // Display
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                    // Border
+                    // Sizing
+                    // Padding
+                    padding-top: 2rem;
+                    // Alignment
+                    // Margining
+                    // Font Styling
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                    img {
+                        position: unset;
+                        border-radius: 50%;
+                        width: 10%;
+                        height: 10%;
+                    }
+                    .name-and-designation {
+                        // Background
+                        // Display
+                        // Border
+                        // Sizing
+                        // Padding
+                        padding-left: 1rem;
+                        // Alignment
+                        // Margining
+                        // Font Styling
+                        // Transitions
+                        // Animations
+                        // Pseudo Class Selectors
+                        // Sub Classes
+                        .name {
+                            // Background
+                            // Display
+                            // Border
+                            // Sizing
+                            // Padding
+                            font-size: 0.8rem;
+                            font-weight: 600;
+                            // Alignment
+                            // Margining
+                            // Font Styling
+                            // Transitions
+                            // Animations
+                            // Pseudo Class Selectors
+                            // Sub Classes
+                        }
+                        .designaion {
+                            // Background
+                            // Display
+                            // Border
+                            // Sizing
+                            // Padding
+                            font-size: 0.6rem;
+                            // Alignment
+                            // Margining
+                            // Font Styling
+                            // Transitions
+                            // Animations
+                            // Pseudo Class Selectors
+                            // Sub Classes
+                        }
+                    }
+                }
+            }
+        }
+        position: relative;
+        .connect-with-us {
+            position: absolute;
+            top: 93%;
+            // Display
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // Background
+            background-color: $dark-blue-intro-and-email-signup;
+            // Border
+            box-shadow: 2px 2px 4px 0px rgb(0, 0, 0);
+            border-radius: 10px;
+            // Sizing
+            width: 50%;
+            // Padding
+            // Alignment
+            // Margining
+            // Font Styling
+            // Transitions
+            // Animations
+            // Pseudo Class Selectors
+            // Sub Classes
+            .heading {
+                // Display
+                // Background
+                background-color: $dark-blue-intro-and-email-signup;
+                // Border
+                border-radius: 10px;
+                // Sizing
+                width: 60%;
+                // Padding
+                padding: 1.5rem 0rem 1rem 0rem;
+                // Alignment
+                // Margining
+                // Font Styling
+                font-size: 1.8rem;
+                font-weight: 600;
+                // Transitions
+                // Animations
+                // Pseudo Class Selectors
+                // Sub Classes
+            }
+            .text {
+                // Display
+                // Background
+                background-color: $dark-blue-intro-and-email-signup;
+                // Border
+                border-radius: 10px;
+                // Sizing
+                width: 60%;
+                // Padding
+                // Alignment
+                // Margining
+                // Font Styling
+                font-size: 0.8rem;
+                // Transitions
+                // Animations
+                // Pseudo Class Selectors
+                // Sub Classes
+            }
+            .mail-and-btn {
+                padding: 2rem 2.5rem 2rem 2.5rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                .email {
+                    all: unset;
+                    width: 55%;
+                    border-radius: 50px;
+                    background-color: white;
+                    color: black;
+                    padding: 1rem 2rem 1rem 2rem;
+                }
+                .email-btn {
+                    all: unset;
+                    border-radius: 50px;
+                    padding: 1rem 2rem 1rem 2rem;
+                    background-color: $cyan;
+                    transition: background-color ease-in-out 300ms;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: $cyan-hover;
+                    }
+                }
+            }
+        }
+    }
+    
+    footer {
+        // Background
+        background-color: $dark-blue-footer-background;
+        // Display
+        // Border
+        // Sizing
+        // Padding
+        padding: 15rem 3rem 4rem 3rem;
+        // Alignment
+        // Margining
+        // Font Styling
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        // Transitions
+        // Animations
+        // Pseudo Class Selectors
+        // Sub Classes
     }
