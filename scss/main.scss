@@ -1,0 +1,208 @@
+    @import './reset';
+    @import './config';
+    // Selector layout-----
+    // Background
+    // Display
+    // Border
+    // Sizing
+    // Padding
+    // Margining
+    // Font Styling
+    // Transitions
+    // Animations
+    // Pseudo Class Selectors
+    // Sub Classes
+    header {
+        // Display
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        // Background
+        background-color: $dark-blue-intro-and-email-signup;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        // Border
+        // Sizing
+        width: 100%;
+        // Padding
+        // Alignment
+        // Margining
+        margin-bottom: 6rem;
+        // Font Styling
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        // Transitions
+        // Animations
+        // Pseudo Class Selectors
+        // Sub Classes
+        .header-top-bar {
+            // Background
+            // Display
+            align-self: stretch;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            // Border
+            // Sizing
+            // Padding
+            padding: 2rem 3rem 6rem 3rem;
+            // Margining
+            // Font Styling
+            font-family: inherit;
+            font-weight: inherit;
+            font-size: inherit;
+            // Transitions
+            // Animations
+            // Pseudo Class Selectors
+            // Sub Classes
+            .header-btn-holder {
+                // Background
+                // Display
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                // Border
+                // Sizing
+                // Padding
+                // Margining
+                // Font Styling
+                font-family: inherit;
+                font-weight: inherit;
+                font-size: inherit;
+                // Transitions
+                // Animations
+                // Pseudo Class Selectors
+                // Sub Classes
+                .header-top-bar-btn {
+                    // Display
+                    // Border
+                    // Sizing
+                    // Padding
+                    padding-inline: 1rem;
+                    // Margining
+                    // Font Styling
+                    font-family: inherit;
+                    font-weight: inherit;
+                    font-size: inherit;
+                    // Transitions
+                    // Animations
+                    // Pseudo Class Selectors
+                    // Sub Classes
+                    a {
+                        // Background
+                        // Display
+                        // Border
+                        // Sizing
+                        // Padding
+                        // Margining
+                        // Font Styling
+                        text-decoration: unset;
+                        color: white;
+                        font-family: inherit;
+                        font-weight: inherit;
+                        font-size: inherit;
+                        // Transitions
+                        transition: text-decoration ease-in-out 300ms;
+                        // Animations
+                        // Pseudo Class Selectors
+                        &:hover {
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                        // Sub Classes
+                    }
+                }
+            }
+        }
+        .header-title {
+            // Selector layout-----
+            // Background
+            // Display
+            // Border
+            // Sizing
+            width: 60%;
+            // Padding
+            padding: 3rem 0rem 0rem 0rem;
+            // Margining
+            // Font Styling
+            color: inherit;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 2rem;
+            text-align: center;
+            // Transitions
+            // Animations
+            // Pseudo Class Selectors
+            // Sub Classes
+        }
+        .header-description {
+            // Selector layout-----
+            // Background
+            // Display
+            // Border
+            // Sizing
+            width: 50%;
+            // Padding
+            padding: 2rem 0rem 1.5rem 0rem;
+            // Margining
+            // Font Stylingcolor: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: center;
+            // Transitions
+            // Animations
+            // Pseudo Class Selectors
+            // Sub Classes
+        }
+        .header-btn-link {
+            // Selector layout-----
+            // Background
+            // Display
+            // Border
+            border-radius: 50px;
+            // Sizing
+            // Padding
+            // Margining
+            // Font Styling
+            font-family: inherit;
+            font-weight: inherit;
+            font-size: inherit;
+            // Transitions
+            // Animations
+            // Sub Classes
+            .header-btn {
+                // Selector layout-----
+                // Background
+                background-color: $cyan;
+                // Display
+                // Border
+                border-radius: 50px;
+                // Sizing
+                // Padding
+                padding: 1rem 6rem 1rem 6rem;
+                // Margining
+                // Font Styling
+                font-family: inherit;
+                font-weight: 500;
+                font-size: inherit;
+                // Transitions
+                transition: background-color ease-in-out 300ms;
+                // Animations
+                // Pseudo Class Selectors
+                // Sub Classes
+            }
+            // Pseudo Class Selectors
+            &:hover {
+                cursor: pointer;
+                .header-btn {
+                    background-color: $cyan-hover;
+                }
+            }
+        }
+    }
