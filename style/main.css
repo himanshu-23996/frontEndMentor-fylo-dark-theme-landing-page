@@ -93,8 +93,8 @@ header .header-top-bar .header-btn-holder .header-top-bar-btn a:hover {
 }
 
 header .illustration-1 {
-  width: 90%;
-  height: 50%;
+  width: 50%;
+  height: auto;
 }
 
 header .header-title {
